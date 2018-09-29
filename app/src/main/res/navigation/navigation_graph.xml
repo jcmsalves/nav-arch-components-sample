@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragmentA">
+
+    <fragment
+        android:id="@+id/fragmentA"
+        android:name="com.jcmsalves.navarchcomponentssample.FragmentA"
+        android:label="Fragment A"
+        tools:layout="@layout/fragment_a">
+        <action
+            android:id="@+id/fragmentAtoB"
+            app:destination="@id/fragmentB" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentB"
+        android:name="com.jcmsalves.navarchcomponentssample.FragmentB"
+        android:label="Fragment B"
+        tools:layout="@layout/fragment_b">
+        <action
+            android:id="@+id/fragmentBtoC"
+            app:destination="@id/fragmentC" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentC"
+        android:name="com.jcmsalves.navarchcomponentssample.FragmentC"
+        android:label="Fragment C"
+        tools:layout="@layout/fragment_c">
+        <argument
+            android:name="argument"
+            android:defaultValue="some argument" />
+    </fragment>
+
+</navigation>
