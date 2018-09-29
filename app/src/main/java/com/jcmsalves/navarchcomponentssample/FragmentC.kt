@@ -17,7 +17,7 @@ class FragmentC : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        textResult.text = "received argument: " + arguments?.getString("argument")
+        textResult.text = "received argument: " + arguments?.getString("primitive_argument")
 
         val someDataClass: SomeDataClass? = arguments?.getParcelable("custom_object")
         someDataClass?.let {

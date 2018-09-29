@@ -21,6 +21,7 @@ android {
         }
     }
 }
+def nav_version = "1.0.0-alpha06"
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -31,8 +32,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-
-    def nav_version = "1.0.0-alpha06"
     implementation "android.arch.navigation:navigation-fragment-ktx:$nav_version"
     implementation "android.arch.navigation:navigation-ui-ktx:$nav_version"
 }
