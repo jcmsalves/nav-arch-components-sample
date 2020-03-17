@@ -5,4 +5,4 @@ This project was created to support a medium article demonstrating how to use th
 
 ----
 
-[Playing with Navigation Architecture Components](https://medium.com/@jcmsalves/playing-with-navigation-architecture-components-a7296f8d38f2 "Playing with Navigation Architecture Components")
+[Playing with Navigation Architecture Components](https://joaoalves.dev/posts/playing-with-navigation-architecture-components/ "Playing with Navigation Architecture Components")
